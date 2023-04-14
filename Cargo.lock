@@ -924,7 +924,8 @@ dependencies = [
 [[package]]
 name = "wasmedge-macro"
 version = "0.3.0"
-source = "git+https://github.com/apepkuss/WasmEdge?branch=rust/refactor-host-funcs-map#6d7a64af4bebdc901eba2a139aef017bffaddafb"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6f159a9a7d3d2301de2fc9cb88ad3459af9e95cbd5a0f57437efccc2b572a027"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -934,7 +935,8 @@ dependencies = [
 [[package]]
 name = "wasmedge-sdk"
 version = "0.7.1"
-source = "git+https://github.com/apepkuss/WasmEdge?branch=rust/refactor-host-funcs-map#6d7a64af4bebdc901eba2a139aef017bffaddafb"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a6b7678a024c25fbe7168dedbca6958b6baf5412a998c697bf40dbf359efc54e"
 dependencies = [
  "anyhow",
  "num-derive",
@@ -949,7 +951,8 @@ dependencies = [
 [[package]]
 name = "wasmedge-sys"
 version = "0.12.2"
-source = "git+https://github.com/apepkuss/WasmEdge?branch=rust/refactor-host-funcs-map#6d7a64af4bebdc901eba2a139aef017bffaddafb"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "00ab1f78c1d3de17fd0deff054de96e337cf8cf02d13651748bdfa1f1b219369"
 dependencies = [
  "bindgen",
  "cmake",
@@ -968,7 +971,8 @@ dependencies = [
 [[package]]
 name = "wasmedge-types"
 version = "0.3.1"
-source = "git+https://github.com/apepkuss/WasmEdge?branch=rust/refactor-host-funcs-map#6d7a64af4bebdc901eba2a139aef017bffaddafb"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3323fe75a4e65476b33a041092aac22a1065a7ba0bfecbedc8135e8efb6c522d"
 dependencies = [
  "thiserror",
  "wat",
